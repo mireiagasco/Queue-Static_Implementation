@@ -8,3 +8,10 @@ To implement it, three auxiliar values have been used:\
 --> Length: an integer indicating the total number of elements waiting in the queue.\
 
 This three variables are used to avoid the queue going out of the array bounds unexpectedly and to be able to control easily the `enqueue()` and `dequeue()` functionality.
+
+## Implemented Methods
+The implementation includes the following methods:
+* `enqueue()` -> adds the integer indicated as an argument to the end of the queue.  Throws the exception `QueueIsFull` if the element cannot be added due to the queue being full.\
+* `dequeue()` -> removes and returns the firts element waiting in the queue.  Throws the exception `QueueIsEmpty` if there are no elements to be removed.\
+* `getLenght()` -> returns the number of elements that are waiting in the queue.\
+* `isEmpty()` -> returns true if the queue is empty, false if it has one element or more in it.
