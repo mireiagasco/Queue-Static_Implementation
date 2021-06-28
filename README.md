@@ -15,3 +15,8 @@ The implementation includes the following methods:
 * `dequeue()`: removes and returns the firts element waiting in the queue.  Throws the exception `QueueIsEmpty` if there are no elements to be removed.
 * `getLenght()`: returns the number of elements that are waiting in the queue.
 * `isEmpty()`: returns true if the queue is empty, false if it has one element or more in it.
+
+## Implemented Exceptions
+The exceptions used are:
+* `QueueIsFull`: if the `enqueue()` method is called when the queue is already full.
+* `QueueIsEmpty`: if the `dequeue()` method is called when the queue is empty.
